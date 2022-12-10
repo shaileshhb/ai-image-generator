@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  BASE_URL: `https://gleaming-tan-calf.cyclic.app`
+  BASE_URL: `https://ai-image-generator-backend.onrender.com`
 };
