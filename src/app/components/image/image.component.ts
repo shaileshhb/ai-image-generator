@@ -46,6 +46,7 @@ export class ImageComponent implements OnInit {
 
   genearateImage(): void {
     this.isLoading = true
+    this.aiImage = null
     this.openaiService.generateImage(this.imageGeneratorForm.value).subscribe({
       next: (value: HttpResponse<IImage>) => {
         console.log(value);
